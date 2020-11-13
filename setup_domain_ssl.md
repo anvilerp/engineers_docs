@@ -20,8 +20,8 @@ sudo certbot certonly --standalone
  cd frappe-bench/sites/{{ site_name }}
 ## Add the following two lines to your site_config.json
 
-"ssl_certificate": "/etc/letsencrypt/live/example.com/fullchain.pem",<br>
-"ssl_certificate_key": "/etc/letsencrypt/live/example.com/privkey.pem"
+"ssl_certificate": "/etc/letsencrypt/live/{{ site_name }}/fullchain.pem",<br>
+"ssl_certificate_key": "/etc/letsencrypt/live/{{ site_name }}/privkey.pem"
 
 
 ## Re generate nginx config
