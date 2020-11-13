@@ -42,7 +42,7 @@ sudo service nginx reload
 crontab -e 
 ## and enter:
 # renew letsencrypt certificates on 1st monday of every month and get an email if it gets executed
-MAILTO="mail@example.com"
+MAILTO="mail@example.com" <br>
 0 0 1-7 * * [ "$(date '+\%a')" = "Mon" ] && sudo service nginx stop && /opt/certbot-auto renew && sudo service nginx start
 
 
