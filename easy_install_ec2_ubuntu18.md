@@ -5,7 +5,7 @@ sudo adduser frappe  <br>
 sudo usermod -aG sudo frappe  <br>
 sudo su frappe  <br>
 ## go to your user directory
-cd /home/anvil   <br>
+cd /home/frappe   <br>
 wget https://raw.githubusercontent.com/frappe/bench/develop/install.py <br>
 sudo python3 install.py --production --user frappe
 
