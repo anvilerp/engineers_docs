@@ -3,7 +3,7 @@ sudo apt install python3-minimal build-essential python3-setuptools -y  <br>
 ## use a complex password for frappe or your user for example anvilerp
 sudo adduser frappe  <br>
 sudo usermod -aG sudo frappe  <br>
-sudo su anvil  <br>
+sudo su frappe  <br>
 ## go to your user directory
 cd /home/anvil   <br>
 wget https://raw.githubusercontent.com/frappe/bench/develop/install.py <br>
