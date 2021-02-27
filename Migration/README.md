@@ -7,7 +7,8 @@
     <li> Create <b>pathces</b> Folder in App Folder </li>
     <li> Save the migration code file in the patches folder </li>
     </li> 
-      Don't Forget Add the Migration code file to <b>pathces.txt</b>File, Like this 
+      Don't Forget Add the Migration code file to <b>pathces.txt</b>File, Like this
+      <br>
       <img src="imgs/patches-file.png" />
     </li>
     <li> Running <u>bench migrate</u> command </li>
