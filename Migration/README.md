@@ -15,5 +15,5 @@
   </ol>
   <h6> This image shows you the migration code that is used to add the data of some table to another table.</h6>
   <img src="imgs/code2.png" />
-  <p><b><u>In this case,</u></b>The code will get the firstname and secondname data from Emp First Name Doctype then put it as a fullname in the fullname field in Fullname Doctype </p>
+  <p><b><u>In this case,</u></b>The code will get the first name and double name data from Emp First Name Doctype then put it as a full name in the full name field in Fullname Doctype </p>
 </div>
