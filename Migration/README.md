@@ -14,5 +14,5 @@
     <li> Running <u>bench migrate</u> command </li>
   </ol>
   <h6> This image shows you the migration code that is used to add the data of some table to another table.</h6>
-  <img src="imgs/codes.png" />  
+  <img src="imgs/code2.png" />  
 </div>
