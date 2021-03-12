@@ -30,5 +30,3 @@ object?   -> Details about 'object', use 'object??' for extra details.
 
 In [1]: frappe.publish_realtime(event='msgprint', message='Hello Socketio', user='Administrator')
 ```
-
-![socketio-develop](https://discuss.frappe.io/uploads/default/original/1X/6c1609020d21d7c0f8a345464d4129ea8368c094.png)
