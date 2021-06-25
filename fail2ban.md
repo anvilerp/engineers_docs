@@ -1,3 +1,11 @@
+ERPNext has two type of jails :
+1- sshd:
+cat /etc/fail2ban/jail.conf 
+
+To use more aggressive sshd modes set filter parameter "mode" in jail.local:
+normal (default), ddos, extra or aggressive (combines all).
+
+2- nginx-proxy      
 cat /etc/fail2ban/jail.d/nginx-proxy.conf   
 
 ## block hosts trying to abuse our server as a forward proxy
