@@ -18,7 +18,18 @@ maxretry = 6
 bantime  = 600  
 findtime = 600  
 
+## fitler nginx-proxy explained ?
+cat /etc/fail2ban/filter.d/nginx-proxy.conf
+<pre># Block IPs trying to use server as proxy.
+[Definition]
+failregex = &lt;HOST&gt;.*\&quot; 400
+	&lt;HOST&gt;.*&quot;[A-Z]* /(cms|muieblackcat|db|cpcommerce|cgi-bin|wp-login|joomla|awstatstotals|wp-content|wp-includes|pma|phpmyadmin|myadmin|mysql|mysqladmin|sqladmin|mypma|admin|xampp|mysqldb|pmadb|phpmyadmin1|phpmyadmin2).*&quot; 4[\d][\d]
+	&lt;HOST&gt;.*&quot;.*supports_implicit_sdk_logging.*&quot; 4[\d][\d]
+	&lt;HOST&gt;.*&quot;.*activities?advertiser_tracking_enabled.*&quot; 4[\d][\d]
+	&lt;HOST&gt;.*&quot;.*/picture?type=normal.*&quot; 4[\d][\d]
+	&lt;HOST&gt;.*&quot;.*/announce.php?info_hash=.*&quot; 4[\d][\d]
 
+ignoreregex =</pre>
 
 ## how to check if there is a band ip ? 
 sudo fail2ban-client status nginx-proxy
