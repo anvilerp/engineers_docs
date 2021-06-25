@@ -31,6 +31,10 @@ failregex = &lt;HOST&gt;.*\&quot; 400
 
 ignoreregex =</pre>
 
+## what 400 stands for ?
+The HyperText Transfer Protocol (HTTP) 400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).  
+
+
 ## how to check if there is a band ip ? 
 sudo fail2ban-client status nginx-proxy
 
