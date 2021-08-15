@@ -1,0 +1,16 @@
+how to get what is eating your hard disk  
+du -h -t 1G | sort -h  
+how to fix database logs .bin error  
+located at /var/lib/mysql   
+
+read more about  this comand
+
+PURGE BINARY LOGS TO `mysql-bin.000014`;
+
+https://dba.stackexchange.com/questions/41050/is-it-safe-to-delete-mysql-bin-files
+
+
+then add this to /etc/my.cnf   
+
+[mysqld]   
+expire_logs_days=3
