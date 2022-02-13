@@ -24,3 +24,6 @@ sudo pip3 install -e /home/frappe/.bench/
 
 
 sudo python3 install.py --verbose --production --user frappe --mariadb-version 10.5 --frappe-branch version-13 --erpnext-branch version-13  
+sudo su frappe 
+cd ../frappe/frappe-bench 
+sudo bench setup production frappe 
