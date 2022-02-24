@@ -52,7 +52,9 @@ Open file /etc/fail2ban/jail.conf and add your IP to "ignoreip" line which is un
 # defined using space separator.                                                                                             
 ignoreip = 192.168.0.1/16 10.0.0.0/8 127.0.0.1/8 172.16.0.0/12 213.197.141.162 YOUR_IP_HERE
 </pre>
-Save the file and restart fail2ban to apply changes.
+Save the file and restart fail2ban to apply changes.  
 '''
-sudo service fail2ban restart
+
+
+sudo service fail2ban restart. 
 
