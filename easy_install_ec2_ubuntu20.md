@@ -17,9 +17,9 @@ When the editor is open, search for: bind 127.0.0.1 ::1 and edit our the 2 colon
 
 wget https://raw.githubusercontent.com/frappe/bench/develop/install.py  
 
-sudo pip3 uninstall setuptools 
-sudo pip3 install setuptools==59.6.0 
-sudo pip3 install -e /home/frappe/.bench/ 
+sudo pip3 uninstall setuptools  
+sudo pip3 install setuptools==59.6.0   
+sudo pip3 install -e /home/frappe/.bench/   
 
 
 
