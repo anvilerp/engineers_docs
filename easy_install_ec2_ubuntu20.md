@@ -1,9 +1,9 @@
-adduser frappe  
-usermod -aG sudo frappe  
+sudo adduser frappe  
+sudo usermod -aG sudo frappe  
 Then while still logged in as root, update the system to the latest packages…
 
-apt-get update  
-apt-get upgrade  
+sudo apt-get update  
+sudo apt-get upgrade  
 Now, logout as the root user and login with the new user you just created. Perform the following steps:  
 
 export LC_ALL=C.UTF-8  
