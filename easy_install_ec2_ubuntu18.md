@@ -6,6 +6,7 @@ sudo usermod -aG sudo frappe  <br>
 sudo su frappe  <br>
 ## go to your user directory
 cd /home/frappe   <br>
+export LC_ALL=C.UTF-8 <br>
 wget https://raw.githubusercontent.com/frappe/bench/develop/install.py <br>
 sudo python3 install.py --production --user frappe
 
