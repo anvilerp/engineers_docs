@@ -141,3 +141,8 @@ after this.
 restart supervisor service.
 sudo service supervisor restart
 
+
+ ## If CSS is broken
+ 
+sudo chmod 751 /home/${USER}
+in frappe-bench folder
