@@ -125,5 +125,19 @@ Now press (Ctrl-X) to exit
     bench --site dcode.com install-app erpnext
     
     bench start
-
     
+    
+    
+### STEP 16 Error occurs: <class ‘PermissionError’>, [Errno 13] Permission denied: file: /usr/lib/python3/dist-packages/supervisor/xmlrpc.py line: 560
+    
+nano /etc/supervisor/supervisord.conf
+add this your frappe’s user under this section. in chown key
+
+[unix_http_server]
+file = /var/run/supervisor.sock   ; (the path to the socket file)
+chmod = 0760
+chown = frappe:frappe; this is you user name.
+after this.
+restart supervisor service.
+sudo service supervisor restart
+
