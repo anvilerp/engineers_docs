@@ -146,3 +146,9 @@ sudo service supervisor restart
  
 sudo chmod 751 /home/${USER}
 in frappe-bench folder
+
+
+## if you have issue with creating new site 
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'password'  WITH GRANT OPTION;
+
