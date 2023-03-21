@@ -15,7 +15,7 @@ sudo service nginx stop
 ## Install cerbot: 
 sudo snap install --classic certbot
 ## Generate cert: 
-sudo certbot certonly --standalone
+sudo certbot certonly --nginx
 <br>
  cd frappe-bench/sites/{{ site_name }}
 ## Add the following two lines to your site_config.json
