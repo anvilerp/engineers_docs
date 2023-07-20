@@ -12,3 +12,6 @@ sudo resize2fs /dev/DEVICE_IDPARTITION_NUMBER
 Run df -h to verify your resized disk  
 sudo umount /tmp  
 
+
+if you got lost : follow this link :
+https://repost.aws/knowledge-center/ebs-volume-size-increase
